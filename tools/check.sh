@@ -16,10 +16,8 @@ java=`which java`
 if [[ "$?" == "0" ]];then
 printf "\n\033[0;32m[ ✔ ] Java .............[ \033[1;33mFound \033[0;32m]\n\n"
 else 
-printf "\n\033[0;32m[#]\033[1;37mApktool Not Found In Your System (;\n\n"
-printf "\n\033[1;33mInstalling It :\n"
-apt-get install apktool -y 
-printf "\n\033[0;32mDone..\n\n"
+printf "\n\033[0;32m[#]\033[1;37mJava Not Found In Your System (;\n\n"
+printf "\n\033[1;33mPlease Installing It :\n"
 fi 
 apktool=`which apktool`
 if [[ "$?" == "0" ]];then
@@ -27,7 +25,7 @@ printf "\n\033[0;32m[ ✔ ] Apktool .............[ \033[1;33mFound \033[0;32m]\n
 else 
 printf "\n\033[0;32m[#]\033[1;37mApktool Not Found In Your System (;\n\n"
 printf "\n\033[1;33mInstalling It :\n"
-apt-get install apktool -y 
+sudo apt-get install apktool -y 
 printf "\n\033[0;32mDone..\n\n"
 fi
 python3=`which python3` 
@@ -47,7 +45,7 @@ printf "\n\033[0;32m[ ✔ ] Pip .............[ \033[1;33mFound \033[0;32m]\n\n"
 else 
 printf "\n\033[0;32m[#]\033[1;37m Pip Not Found In Your System (;\n\n"
 printf "\033[1;33mInstalling It :\n"
-apt-get install pip -y 
+sudo apt-get install pip -y 
 printf "\n\033[0;32mDone..\n\n"
 fi
 djawed= pip install requirements.txt > /dev/null 2>&1
