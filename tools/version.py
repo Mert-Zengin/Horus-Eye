@@ -1,4 +1,4 @@
-#!/bin/python3
+#!/usr/bin/env python
 import requests
 def version():
 	r = requests.get("https://raw.githubusercontent.com/Djawed-Hammadi/Horus-Eye/main/tools/version.txt")
