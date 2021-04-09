@@ -38,7 +38,7 @@ printf "\033[1;33mInstalling It :\n"
 apt-get install python3 -y 
 printf "\n\033[0;32mDone..\n\n"
 fi
-python3=`which pip` 
+python3=`which pip3` 
 if [[ "$?" == "0" ]];then
 sleep 2 
 printf "\n\033[0;32m[ ✔ ] Pip .............[ \033[1;33mFound \033[0;32m]\n\n"
