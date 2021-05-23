@@ -18,6 +18,8 @@ printf "\n\033[0;32m[ ✔ ] Java .............[ \033[1;33mFound \033[0;32m]\n\n"
 else 
 printf "\n\033[0;32m[#]\033[1;37mJava Not Found In Your System (;\n\n"
 printf "\n\033[1;33mPlease Installing It :\n"
+sleep 5 
+exit
 fi 
 apktool=`which apktool`
 if [[ "$?" == "0" ]];then
