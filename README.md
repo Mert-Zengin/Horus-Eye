@@ -87,8 +87,6 @@ You Can Contact Me On :
 
 - Facebook : facebook.com/djawedx23
 
-- Follow Me On Twitter : 
-
-   ![Twitter Follow](https://img.shields.io/twitter/follow/xlinex23?color=%231DA1F2&logo=Twitter&style=flat-square)
+- Follow Me On Twitter : @xlinex23
 
 - Made With ❤️ By Djawed-Hammadi                                                            
