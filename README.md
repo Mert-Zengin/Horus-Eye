@@ -46,7 +46,7 @@ Work With 🛠️ :
  
  - Rafel Rat
 
- -F**king Rat
+ - Fu**ing Rat
 
 SCREENSHOTS 📷 :
 ===========
