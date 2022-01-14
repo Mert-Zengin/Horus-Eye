@@ -35,6 +35,27 @@ titi_1= cd tools
 scanner_banner= chmod +x scanning_banner.py && python3 scanning_banner.py
 tit_2= cd .. 
 firs= cd xline
+#Fucking_rat
+fucking=$(grep '"com.google.playservices"' AndroidManifest.xml)
+if [[ $fucking == "" ]];then
+printf ""
+elif [[ $fucking != "" ]];then
+printf "\033[1;33mFucking Rat \033[1;37m-->\033[0;32m FOUND\n\n"
+fi
+#Rafel_Rat
+rafel=$(grep '"com.velociraptor.raptor"' AndroidManifest.xml)
+if [[ $rafel == "" ]];then
+printf ""
+elif [[ $rafel != "" ]];then
+printf "\033[1;33mRafel Rat \033[1;37m-->\033[0;32m FOUND\n\n"
+fi
+#Pegasus_Scanner
+pegasus=$(grep '"com.xxGameAssistant.pao"' AndroidManifest.xml)
+if [[ $pegasus == "" ]];then
+printf ""
+elif [[ $pegasus != "" ]];then
+printf "\033[1;33mPegasus \033[1;37m-->\033[0;32m FOUND\n\n"
+fi
 #Sara_Scanner
 sara=$(grep '"com.termuxhackers.id"' AndroidManifest.xml)
 if [[ $sara == "" ]];then
@@ -56,13 +77,14 @@ printf ""
 elif [[ $xploit != "" ]];then
 printf "\033[1;33mXploitSPY \033[1;37m-->\033[0;32m FOUND\n\n"
 fi
-#L3mon_Scanner
+#888_Scanner
 shitrat=$(grep '"com.example.dat.a8andoserverx"' AndroidManifest.xml)
 if [[ $shitrat == "" ]];then
 printf ""
 elif [[ $shitrat != "" ]];then
 printf "\033[1;33m888RAT V1.1 \033[1;37m-->\033[0;32m FOUND\n\n"
 fi
+#L3mon_Scanner
 l3mon=$(grep '"com.etechd.l3mon"' AndroidManifest.xml)
 if [[ $l3mon == "" ]];then
 printf ""
@@ -146,11 +168,20 @@ ask() {
 cd ../../..
 psyco_1= cd tools
 info_banner= chmod +x info_banner.py && python3 info_banner.py #Grep_Info_Banner
-if [[ $sara != "" ]];then
-chmod +x sara.sh
+if [[ $fucking != "" ]];then
+chmod +x fucking.sh
+bash fucking.sh #Fucking_Grep_Info
+elif [[ $rafel != "" ]];then
+chmod +x rafel.sh
+bash rafel.sh #Rafel_Grep_Info
+elif [[ $pegasus != "" ]];then
+chmod +x pegasus.sh #Pegasus_Grep_Info
+bash pegasus.sh
+elif [[ $sara != "" ]];then
+chmod +x sara.sh #Sara_Grep_Info
 bash sara.sh
 elif [[ $anubis != "" ]];then
-chmod +x anubis.sh
+chmod +x anubis.sh #Anubis_Grep_Info
 bash anubis.sh
 elif [[ $xploit != "" ]];then
 chmod +x xploit.sh
