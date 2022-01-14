@@ -41,6 +41,12 @@ Work With 🛠️ :
  - XploitSpy
  
  - Sara Ransomware
+ 
+ - Pegasus
+ 
+ - Rafel Rat
+
+ -F**king Rat
 
 SCREENSHOTS 📷 :
 ===========
