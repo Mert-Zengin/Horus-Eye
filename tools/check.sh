@@ -50,7 +50,7 @@ printf "\033[1;33mInstalling It :\n"
 sudo apt-get install pip -y 
 printf "\n\033[0;32mDone..\n\n"
 fi
-djawed= pip install requirements.txt > /dev/null 2>&1
+pip install requirements.txt > /dev/null 2>&1 && pip3 install requirements.txt
 update= chmod +x version.py && python3 version.py
 ping -c 1 google.com > /dev/null 2>&1
 if [[ "$?" == 0 ]];then
