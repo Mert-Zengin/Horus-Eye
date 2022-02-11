@@ -52,13 +52,6 @@ printf "\n\033[0;32mDone..\n\n"
 fi
 pip install requirements.txt > /dev/null 2>&1 && pip3 install requirements.txt
 update= chmod +x version.py && python3 version.py
-ping -c 1 google.com > /dev/null 2>&1
-if [[ "$?" == 0 ]];then
-printf "\033[0;32m[ ✔ ] Network Connection .............[ \033[1;33mConnected \033[0;32m]\n\n"
-elif [[ "$?" != 0 ]];then
-printf "\n\033[0;32m[#]\033[1;37m Checking For Internet ...... \033[1;33mNO INTERNET\n\n"
-printf "\n\033[0;32m[#]\033[0;32m You Can't Use Option Get Ip Inofrmations In This Tool..\n\n"
-fi
 printf "\n\033[0;32m[ ✔ ] Horus-Eye .............[ \033[1;33mStart \033[0;32m]\n\n"
 sleep 10 
 clear
