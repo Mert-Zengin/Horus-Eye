@@ -1,7 +1,4 @@
 #!/usr/bin/env bash
-#Coded By Djawed Hammadi
-#FACEBOOK:www.facebook.com/djawedx23
-#Copyright@2020
 xploit(){
 cd ..
 golwlh= cd xline/res/values/
